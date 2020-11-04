@@ -1,0 +1,33 @@
+function CC=my_matched_filtering(x,y)
+%Function to calculate a naive Pearson Coefficient
+%In the time domain
+
+N=length(y); %length template
+M=length(x); %length station data
+
+ynew=y-mean(y); %remove mean from the template
+
+denom2=sum(ynew.*ynew); %calculate denom for template
+
+%Preallocate
+CC=zeros(1,M);
+
+%%
+for i=1:M-N
+%Remove mean from the raw data fraction
+temp=x(i:i+N-1)-mean(x(i:i+N-1));
+%First Summation is the numerator
+numer=sum(temp.*ynew);
+
+%Calculate denominator for raw data
+denom1=sum(temp.*temp);
+
+% Do the Coefficient
+CC(1,i)=numer./sqrt(denom1.*denom2);
+
+
+end
+%pad zeros 
+CC(end:M)=0;
+
+end
