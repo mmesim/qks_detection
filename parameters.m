@@ -1,9 +1,13 @@
 %            Parameter file for qk detection                              %
 %                                                                         % 
-% ------------------  M.Mesimeri 05/2020  ---------------------------------
+% ------------------      M.Mesimeri 05/2020  ----------------------------%
 %               University of Utah seismograph Stations                   %
-%                      maria.mesimeri@utah.edu                            %
-%--------------------------------------------------------------------------
+%               ----------------------------------------                  %
+%                       Update:  11-12/2021 ++                            %
+%                Swiss Seismological Service @ ETH Zurich                 %
+%                        maria.mesimeri@sed.ethz.ch                       %
+%-------------------------------------------------------------------------%                                                %
+
 %path to templates and raw waveforms
 templates_dir='./templates';
 raw_dir='raw';

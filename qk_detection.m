@@ -2,7 +2,10 @@
 %                                                                         %
 % ---------------       M.Mesimeri 05-06/2020                -------------%
 %               University of Utah seismograph Stations                   %
-%                      maria.mesimeri@utah.edu                            %
+%               ----------------------------------------                  %
+%                           Update:  11-12/2021 ++                        %
+%                Swiss Seismological Service @ ETH Zurich                 %
+%                        maria.mesimeri@sed.ethz.ch                       %
 %--------------------------------------------------------------------------
 
 %% 00. Setup
