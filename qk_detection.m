@@ -22,7 +22,7 @@ disp('Prepare templates..')
 %% 02. Work with daily waveforms
 [N,directories]=list_waveforms_dir(raw_dir); % list directories and work on each day
 
-for i=361:N   
+for i=1:N   
 waveforms=get_waveforms(raw_dir,directories(i).name,type,co,wlen);
 disp(directories(i).name)
 

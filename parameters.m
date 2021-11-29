@@ -10,7 +10,7 @@
 
 %path to templates and raw waveforms
 templates_dir='./templates';
-raw_dir='raw';
+raw_dir='./raw';
 %--------------------------------------------------------------------------
 % Parallel settings
 workers=4;                 %Set number of cores to work on a local machine
