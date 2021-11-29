@@ -5,11 +5,11 @@
 %                      maria.mesimeri@utah.edu                            %
 %--------------------------------------------------------------------------
 %path to templates and raw waveforms
-templates_dir='/uufs/chpc.utah.edu/common/home/koper-group1/mesimeri/MINERAL_MOUNTAINS/templates_decimated';
-raw_dir='/uufs/chpc.utah.edu/common/home/koper-group1/mesimeri/MINERAL_MOUNTAINS/data_2019';
+templates_dir='./templates';
+raw_dir='raw';
 %--------------------------------------------------------------------------
 % Parallel settings
-workers=24;                 %Set number of cores to work on a local machine
+workers=4;                 %Set number of cores to work on a local machine
 %-------------- Filtering parameters --------------------------------------
 type='bandpass';           %'low', 'high', 'bandpass'
 %co=1;                     %low or high corner frequency (high or low pass)
